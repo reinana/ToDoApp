@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <!-- 名前空間の設定 -->
+  <mapper namespace="com.sample.dao.MemberDao">
+  	
+  	<resultMap type="com.sample.dto.Member" id="memberResult">
+  		<result column="memberId" property="memberId"/>
+  		<result column="name" property="name"/>
+  		<result column="password" property="password"/>
+
+  	</resultMap>
+  	
+
+  </mapper>

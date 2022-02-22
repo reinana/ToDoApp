@@ -1,0 +1,26 @@
+DROP DATABASE `todoappMybatis`;
+
+CREATE DATABASE `todoappMybatis`;
+
+<!--ここでdb.ermを実行し、Databaseができたら以下をMySQLへ-->
+
+USE todoappMybatis;
+
+
+INSERT INTO member (name, password) VALUES ('kubota', 'password');
+INSERT INTO member (name, password) VALUES ('reo', 'password');
+INSERT INTO member (name, password) VALUES ('nana', 'password');
+INSERT INTO member (name, password) VALUES ('maronana', 'password');
+INSERT INTO member (name, password) VALUES ('kaho', 'password');
+INSERT INTO member (name, password) VALUES ('yoshie', 'password');
+INSERT INTO member (name, password) VALUES ('miura', 'password');
+INSERT INTO member (name, password) VALUES ('member1', 'password');
+INSERT INTO member (name, password) VALUES ('member2', 'password');
+
+SELECT * FROM member;
+
+INSERT INTO task (memberId, deadline, taskText) VALUES (1, '2022-02-02', "タスク1");
+INSERT INTO task (memberId, deadline, taskText) VALUES (2, '2022-02-03', "タスク2");
+INSERT INTO task (memberId, deadline, taskText) VALUES (1, '2022-02-05', "タスク3");
+
+SELECT * FROM task;
