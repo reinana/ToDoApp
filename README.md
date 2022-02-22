@@ -4,7 +4,7 @@ Todoを管理するアプリです。メンバー登録をしているユーザ�
 
 # DEMO
 
-https://github.com/reinana/ToDoApp/issues/1#issue-1147474625
+[!demo](https://github.com/reinana/ToDoApp/issues/1#issue-1147474625)
 
 # Features
 
